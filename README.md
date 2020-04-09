@@ -2,6 +2,10 @@
 
 # Currency Seekbar
 
+### Screenshot
+
+!['ScreenShot'](https://raw.githubusercontent.com/Magno-Ramos/currency-seekbar/master/images/screenshot.png)
+
 ### Setup
 
 Step 1. Add the JitPack repository to your build file
