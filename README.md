@@ -43,3 +43,34 @@ dependencies {
 	app:cs_max="100.43"
 	app:cs_min="60.30"
 	app:cs_progress="80.65" />
+```
+
+### Customize ?
+
+>Create your custom style
+
+```xml
+    <!--custom theme-->
+    <style name="CurrencySeekBarTheme.Custom">
+        <item name="colorPrimary">#222222</item>
+        <item name="cs_seek_bar_style">@style/CsSeekBarStyle.Custom</item>
+        <item name="cs_label_min_style">@style/CsMinLabelStyle.Custom</item>
+        <item name="cs_label_max_style">@style/CsMaxLabelStyle.Custom</item>
+    </style>
+
+    <!--custom seek bar style-->
+    <style name="CsSeekBarStyle.Custom">
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+    </style>
+
+    <!--custom min label style-->
+    <style name="CsMinLabelStyle.Custom">
+        <item name="android:textColor">#43A047</item>
+    </style>
+
+    <!--custom max label style-->
+    <style name="CsMaxLabelStyle.Custom">
+        <item name="android:textColor">#e53935</item>
+    </style>
+```
