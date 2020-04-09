@@ -1,4 +1,4 @@
-[![](https://jitpack.io/v/Magno-Ramos/currency-seekbar.svg)](https://jitpack.io/#Magno-Ramos/currency-seekbar)
+[![](https://jitpack.io/v/magno-ramos/currency-seekbar.svg)](https://jitpack.io/#magno-ramos/currency-seekbar)
 
 # Currency Seekbar
 
