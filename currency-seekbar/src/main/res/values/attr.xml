@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="CurrencySeekBar" format="reference" />
+
+    <declare-styleable name="CurrencySeekBar">
+        <attr name="cs_max" format="string" /> <!-- the max value of seekBar to seek, default 100 -->
+        <attr name="cs_min" format="string" /><!-- the min value of seekBar to seek, default 0 -->
+        <attr name="cs_progress" format="string" /><!-- the current progress value of seekBar, default 0-->
+        <attr name="cs_show_min_label" format="boolean" />
+        <attr name="cs_show_max_label" format="boolean" />
+        <attr name="cs_label_min_style" format="reference" />
+        <attr name="cs_label_max_style" format="reference" />
+        <attr name="cs_seek_bar_style" format="reference" />
+        <attr name="cs_enable_step" format="boolean" />
+    </declare-styleable>
+</resources>

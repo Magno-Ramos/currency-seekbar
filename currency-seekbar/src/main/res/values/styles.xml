@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CurrencySeekBarTheme">
+        <item name="cs_seek_bar_style">@style/CsSeekBarStyle</item>
+        <item name="cs_label_min_style">@style/CsLabelStyle</item>
+        <item name="cs_label_max_style">@style/CsLabelStyle</item>
+    </style>
+
+    <style name="CsLabelStyle">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CsSeekBarStyle">
+        <item name="android:progressDrawable">@drawable/csb_seekbar</item>
+        <item name="android:thumb">@drawable/csb_thumb</item>
+    </style>
+
+</resources>

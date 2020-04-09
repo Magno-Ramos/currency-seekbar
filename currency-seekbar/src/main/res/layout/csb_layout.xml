@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:theme="?CurrencySeekBar"
+    tools:ignore="HardcodedText"
+    tools:parentTag="android.widget.LinearLayout">
+
+    <SeekBar
+        android:id="@+id/csb_seek_bar"
+        style="?cs_seek_bar_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="8dp"
+        android:minHeight="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp">
+
+        <TextView
+            android:id="@+id/text_view_1"
+            style="?cs_label_min_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:text="0.0" />
+
+        <TextView
+            android:id="@+id/text_view_2"
+            style="?cs_label_max_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:text="100.0" />
+
+    </LinearLayout>
+
+</merge>
