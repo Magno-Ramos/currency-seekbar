@@ -59,18 +59,18 @@ dependencies {
     </style>
 
     <!--custom seek bar style-->
-    <style name="CsSeekBarStyle.Custom">
+    <style name="CsSeekBarStyle.Custom" parent="CsSeekBarStyle">
         <item name="android:layout_marginStart">16dp</item>
         <item name="android:layout_marginEnd">16dp</item>
     </style>
 
     <!--custom min label style-->
-    <style name="CsMinLabelStyle.Custom">
+    <style name="CsMinLabelStyle.Custom" parent="CsLabelStyle">
         <item name="android:textColor">#43A047</item>
     </style>
 
     <!--custom max label style-->
-    <style name="CsMaxLabelStyle.Custom">
+    <style name="CsMaxLabelStyle.Custom" parent="CsLabelStyle">
         <item name="android:textColor">#e53935</item>
     </style>
 ```
